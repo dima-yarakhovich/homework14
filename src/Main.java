@@ -10,6 +10,8 @@ public class Main {
         System.out.println(obelisk);
         System.out.println(bykov.equals(pushkin));
         System.out.println(obelisk.equals(onegin));
+        System.out.println(bykov.hashCode(pushkin));
+        System.out.println(obelisk.hashCode(onegin));
 
     }
 }
