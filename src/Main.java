@@ -9,9 +9,7 @@ public class Main {
         obelisk.setYear(2022);
         System.out.println(obelisk);
         System.out.println(bykov.equals(pushkin));
-        System.out.println(obelisk.equals(onegin));
-        System.out.println(bykov.hashCode(pushkin));
-        System.out.println(obelisk.hashCode(onegin));
+        System.out.println(obelisk.hashCode()==onegin.hashCode());
 
     }
 }
